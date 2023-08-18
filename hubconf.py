@@ -4,7 +4,7 @@ import torch
 def generator(pretrained=True, device="cpu", progress=True, check_hash=True):
     from model import Generator
 
-    release_url = "https://github.com/bryandlee/animegan2-pytorch/raw/main/weights"
+    release_url = "https://github.com/tipuraj-CFC-Python-developer/Toon_me/raw/main/weights"
     known = {
         name: f"{release_url}/{name}.pt"
         for name in [

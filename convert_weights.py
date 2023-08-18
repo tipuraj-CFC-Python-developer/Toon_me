@@ -128,7 +128,7 @@ if __name__ == '__main__':
     parser.add_argument(
         '--tf_checkpoint_path',
         type=str,
-        default='AnimeGANv2/checkpoint/generator_Paprika_weight',
+        default='toon_me/checkpoint/generator_Paprika_weight',
     )
     parser.add_argument(
         '--save_name', 
